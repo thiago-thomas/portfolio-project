@@ -2,20 +2,20 @@ import Image from 'next/image'
 
 import "./header.scss"
 
-export function Header(){
+interface HeaderProps {
+  name: string,
+  role: string,
+  imgsrc: string
+}
+
+export function Header({name, role, imgsrc}: HeaderProps){
     return(
         <div className="header">
           <div>
-            <h1>Hi, i´m Fernanda! 👋</h1>
-            <h2>Software Engineer</h2>
+            <h1>Hi, i´m {name || "Your Name"}! 👋</h1>
+            <h2>{role || "Software Developer"}</h2>
           </div>
-          <Image
-            src="/me.jpg"
-            alt="Vercel Logo"
-            width={325}
-            height={310}
-            priority
-          />
+          <img src={imgsrc || "https://picsum.photos/200"}></img>
         </div>
     )
 }
