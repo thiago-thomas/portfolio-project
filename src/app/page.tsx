@@ -14,7 +14,12 @@ export default function Home() {
       <Experience />
       <Info />
       <div className="buttons">
-        <SocialBtns />
+        <SocialBtns
+          instagramProfile=""
+          linkedinProfile="thiago-thomas"
+          githubProfile="thiago-thomas"
+          twitterProfile=""
+        />
         <a className="btn-primary" href="mailto:teste@gmail.com">
           contact me
           <EmailIcon />
