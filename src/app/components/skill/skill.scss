@@ -44,14 +44,18 @@
       font-size: 12px;
 
       &.measure-1 {
-        width: 33%;
+        width: 25%;
       }
 
       &.measure-2 {
-        width: 66%;
+        width: 50%;
       }
 
       &.measure-3 {
+        width: 75%;
+      }
+
+      &.measure-4 {
         width: 100%;
       }
     }

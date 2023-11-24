@@ -4,8 +4,7 @@ import "./skill.scss"
 
 interface SkillProps {
     image: string,
-    years: string,
-    measure: number,
+    years: number,
 }
 
 export function Skill(props : SkillProps){
@@ -19,8 +18,8 @@ export function Skill(props : SkillProps){
                 priority
             />
             <div className="experience-unit">
-                <div className={`experience-measure measure-${props.measure}`}>
-                    <span>{props.years}</span>
+                <div className={`experience-measure measure-${props.years}`}>
+                    <span>{props.years} years</span>
                 </div>
             </div>
       </div>
