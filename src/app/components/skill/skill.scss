@@ -26,17 +26,8 @@
 
       border-radius: 24px;
       height: 30px;
-      border: 1px solid
-        linear-gradient(
-          90deg,
-          var(--btn-colormix-primary) 2.62%,
-          var(--btn-colormix-secondary) 93.38%
-        );
-      background: linear-gradient(
-        90deg,
-        var(--btn-colormix-primary) 2.62%,
-        var(--btn-colormix-secondary) 93.38%
-      );
+      border: 1px solid#136a96;
+      background: #136a96;
 
       color: var(--text-primary);
       font-weight: 300;
