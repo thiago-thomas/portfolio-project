@@ -13,5 +13,17 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        
+        transition: .5s all ease-in-out;
+    }
+    a path {
+        fill: white;
+        transition: .5s all ease-in-out;
+    }
+    a:hover {
+        background-color: #ffffff;
+    }
+    a:hover path {
+        fill: black;
     }
 }
