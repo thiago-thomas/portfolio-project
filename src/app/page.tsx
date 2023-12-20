@@ -10,7 +10,7 @@ import { SocialBtns } from "./components/social-btns/social-btns";
 export default function Home() {
   return (
     <main className="container">
-      <Header name="Thiago Thomas" role="Front-End Developer" imgsrc="" />
+      <Header name="Thiago Thomas" role="Front-End Developer" imgsrc="https://github.com/thiago-thomas.png" />
       <Experience />
       <Info />
       <div className="buttons">
