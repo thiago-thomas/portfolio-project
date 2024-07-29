@@ -6,17 +6,17 @@ import { TwitterIcon } from "../icons/twitter-icon";
 import "./social-btns.scss";
 
 interface SocialBtnsHeader {
-  instagramProfile: string;
-  linkedinProfile: string;
-  githubProfile: string;
-  twitterProfile: string;
+  instagramProfile?: string;
+  linkedinProfile?: string;
+  githubProfile?: string;
+  twitterProfile?: string;
 }
 
 export function SocialBtns({
-  instagramProfile,
-  linkedinProfile,
-  githubProfile,
-  twitterProfile,
+  instagramProfile = "",
+  linkedinProfile = "",
+  githubProfile = "",
+  twitterProfile = "",
 }: SocialBtnsHeader) {
   return (
     <div className="social">

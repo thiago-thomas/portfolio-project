@@ -10,15 +10,17 @@ import { SocialBtns } from "./components/social-btns/social-btns";
 export default function Home() {
   return (
     <main className="container">
-      <Header name="Thiago Thomas" role="Front-End Developer" imgsrc="https://github.com/thiago-thomas.png" />
+      <Header
+        name="Thiago Thomas"
+        role="Front-End Developer"
+        imgsrc="https://github.com/thiago-thomas.png"
+      />
       <Experience />
       <Info />
       <div className="buttons">
         <SocialBtns
-          instagramProfile=""
           linkedinProfile="thiago-thomas"
           githubProfile="thiago-thomas"
-          twitterProfile=""
         />
         <a className="btn-primary" href="mailto:teste@gmail.com">
           contact me
